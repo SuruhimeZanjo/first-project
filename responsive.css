@@ -1,0 +1,121 @@
+/* Tampilan untuk pc (max-width:1170px) */
+@media (max-width: 1170px) {
+    main {
+        width: 100%;
+    }
+
+    .anggota {
+        padding: 15px 20px;
+        box-sizing: border-box;
+    }
+}
+
+/* Tampilan untuk tablet (max-width:1000px) */
+@media (max-width: 1000px) {
+    main {
+        width: 100%;
+    }
+
+    .btn-wrapper a {
+        padding: 5px 10px;
+    }
+
+    .anggota {
+        width: 30%;
+        padding: 15px 20px;
+        box-sizing: border-box;
+    }
+
+    .contact-form .container {
+        text-align: center;
+    }
+
+    .contact-form h3 {
+        font-size: 20px;
+    }
+
+    .contact-form p {
+        font-size: 15px;
+    }
+
+    .contact-form input,
+    textarea {
+        width: 300px;
+        margin: 10px 0 30px 0;
+        padding: 15px;
+        font-size: 14px;
+        border: 2px solid #dee7ec;
+    }
+
+}
+
+/* Tampilan untuk smartphone (max-width:670px) */
+@media (max-width: 670px) {
+    main {
+        width: 100%;
+    }
+
+    .utama h1 {
+        text-align: left;
+        padding-left: 40px;
+        line-height: 33px;
+        font-size: 26px;
+    }
+
+    .btn-wrapper .btn {
+        width: 80%;
+        margin-bottom: 10px;
+        padding: 0px 0px;
+    }
+
+    .kelompok {
+        padding: 30px 130px;
+    }
+
+    .team {
+        font-size: 15px;
+    }
+
+    .anggota {
+        width: 100%;
+        padding: 15px 20px;
+        font-size: 13px;
+    }
+
+    .contact-form h3 {
+        font-size: 17px;
+    }
+
+    .contact-form p {
+        font-size: 13px;
+    }
+
+    .contact-form input,
+    textarea {
+        width: 200px;
+        margin: 10px 0 30px 0;
+        padding: 10px;
+        font-size: 10px;
+        border: 2px solid #dee7ec;
+    }
+
+    footer {
+        display: block;
+        padding: 15px;
+        height: 150px;
+        text-align: center;
+    }
+
+    footer .footer-left {
+        border-bottom: 3px solid grey;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    footer .footer-right {
+        margin-top: 5px;
+        font-size: 13px;
+    }
+
+
+}
